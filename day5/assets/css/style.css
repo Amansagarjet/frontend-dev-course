@@ -1,0 +1,61 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#parent .heading{
+    color: lightblue;
+}
+
+.parent .heading{
+    color:red;
+    letter-spacing: 1px;
+    font-weight:bold;
+    font-size:70p;
+}
+
+#parent h1{
+    color: blue;
+}
+
+h1{
+    color:brown
+}
+ */
+
+
+ /* Descendant Selector Start Here */
+
+ /* .parent > p{
+    color:blue;
+    font-size: 20px;
+ } */
+
+ /* Adjacent Sibling Selector */
+
+ /* div + p{
+    background-color: yellow;
+ } */
+
+
+ /* General Sibiling Selector */
+
+ div ~ p{
+    background-color: yellow;
+ }
+
+ a{
+    color:red;
+ }
+ a:hover{
+  slor:blue;
+ }
+/* 
+ a:link{
+    color:green;
+ }
+ a:visited{
+    color:aqua;
+ } */
+ 
