@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent p::first-letter{
+    color: red;
+    font-size: 80px;
+}
+.parent{
+    position: relative;
+}
+.parent p::before{
+    content: "";    
+    background-image: url('');
+}
+.parent p::after{
+    content: "";
+    background-image: url('');
+}
+
+/* Marker */
+.list{
+    padding:50px;
+}
+ul li::marker{
+    color: blue;
+}
+
+::selection{
+    background-color: yellow;
+    color: red;
+}
+
+/* First child */
+
+/* ul li:first-child{
+    background-color: red;
+} */
+/* ul li:last-child{
+    background-color: red;
+} */
+/* ul li:nth-child(n){
+    background-color: red;
+} */
+ /* p:first-of-type{
+    background-color: red;
+} */
+ /* p:last-of-type{
+    background-color: aqua;
+} */
+/* p{
+    color: black;
+}
+:not(p){
+    color: chartreuse;
+}
+:is(h1, h2){
+    color: red;
+} */
+
+/* ul li:nth-last-child(2n+1){
+    color: red;
+} */
+ul li:nth-last-of-type(2){
+    color: red;
+}
+
+[title="abcg"]{
+    color: red;
+    font-size: 50px;
+}
+
+/* sjdfhskdj */
+
+
+.bg{
+    background: url(assets/images/bg.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    height: 800px;
+    width: 1000px;    
+}
