@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+/* Border */
+
+/* border-color: aqua;
+    border-width: 20px;
+    border-style: dashed; */
+
+    /* border - shorthand property */
+    /* border- border-style - border-color - border-width */
+.parent {
+    height: 500px;
+    width: 500px;
+    /* border: 4px rgba(44, 174, 207, 0.8) solid; */
+    /* border-color: red green blue aqua; */
+    /* border-radius: 10px 5px 2p 20px; */
+    border-left: 2px solid red;
+}
+
+
+
+.parent1 {
+    height: 500px;
+    width: 500px;
+    border: 4px red solid;
+}
+
+/* 
+
+4- top, right, bottom, left
+3- top, right & left, bottom
+2- top & bottom, right & left,
+1- all rounder
+
+*/
+
+.parent {
+    /* border-top-width: 15px;
+    border-bottom-width: 15px;
+    border-right-width: 15px;
+    border-left-width: 15px; */
+    /* border-top-style: dashed;
+    border-left-style:dotted;
+    border-right-style:solid;
+    border-bottom-style:groove; */
+}
