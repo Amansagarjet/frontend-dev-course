@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.topbar{
+    background:aqua;
+}
+.topbar span{
+    font-size: 20px;
+    padding:10px 20px;
+    display: block;
+    text-align:center;
+}

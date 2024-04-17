@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+}
+.outer{
+    
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+    /* margin-top: 25px;
+    margin-right: 50px;
+    margin-bottom: 75px;
+    margin-left: 100px; */
+    margin: 10px 20px 30px 50px;
+
+    /* Whenever we are use four values
+    1- top;
+    2- right;
+    3- bottom;
+    4- left; */
+
+    /* Whenever we are using three values
+    
+    1- Top
+    2- right & left
+    3- Bottom
+    
+
+    */
+    /* Whenever we are using two values
+    
+    1- Top & bottom
+    2- right & left    
+
+    */
+    /* Whenever we are using two values
+    
+    1- all rounder
+       
+
+    */
+}
+
+.inner{
+    border: 2px solid red;
+    height: 500px;
+    width: 500px;
+    margin: inherit;
+    padding: 50px;
+}
