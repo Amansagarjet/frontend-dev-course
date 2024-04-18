@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.parent{
+    background:aqua;
+    height:600px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    padding:20px;
+}
+
+.child-1{
+    height:200px;
+    width:200px;
+    background: red;
+}
+.child-2{
+    height:200px;
+    width:200px;
+    background: greenyellow;
+}
+.child-3{
+    height:200px;
+    width:200px;
+    background: blue;
+}
