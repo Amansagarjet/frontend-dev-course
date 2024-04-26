@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    display: none;
+}
+thead{
+    height: 50px;
+    background: lightgrey;
+}
+table, tr, th, td{
+    border: 1px solid;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}
+td:hover{
+    background-color: lightcoral;
+}
+tr:nth-child(even){
+    background-color: lightslategray;
+}
+
+.para-wrapper{
+    width: 500px;
+    height: 200px;
+}
+.img-wrapper{
+    position: relative;
+}
+img{
+    position: absolute;
+    left:0px;
+    top: 0;
+    width: 100%;
+    max-width: 500px;
+}

@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+nav{
+    width: 20%;
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+nav ul li{
+    padding: 10px 20px;
+}
+nav ul li:hover{
+    background-color: aqua;
+}
+nav ul li a{
+    color: #000;
+    font-weight: bold;
+    font-family: cursive;
+}
