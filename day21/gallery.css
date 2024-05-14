@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+}
+.col{
+   width: 25%; 
+   border: 1px solid;
+}
+.col img{
+    width: 100%;
+    height: 100%;
+}
+.content-wrapper{
+    padding: 10px 20px;
+}
+.content-wrapper h4{
+    font-family: 20px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: black;
+    font-weight: 600;
+}
