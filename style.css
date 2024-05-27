@@ -1,0 +1,19 @@
+/* *{
+    font-family: "Prociono", serif;
+} */
+.nav-item .active{
+    color: #D401F5!important;
+}
+.nav-item .nav-link:hover{
+    color: #D401F5;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after{
+    display: none;
+}
+.swiper-button-prev,
+.swiper-button-next{
+    height: 50px;
+    width: 50px;
+}
