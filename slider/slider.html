@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper Slider</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+
+    <div class="swiper ayush">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"> <img src="images/4.jpg" alt=""> </div>
+            <div class="swiper-slide"> <img src="images/5.jpg" alt=""> </div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+            <!-- <div class="swiper-slide">Slide 4</div> -->
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <style>
+        .swiper-slide img{
+            width:100%;
+            height: 100vh;
+            object-fit: cover;
+        }
+
+        @media (max-width:767px){
+            .swiper-slide img{
+                height: 300px;
+                    
+            }
+        }
+
+        @media (min-width:1920px){
+            .swiper{
+                background-color: red;
+                height: 200px;
+                width: 100%;
+            }
+            .swiper-wrapper{
+                display: none;
+            }
+        }
+    </style>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var Ayush = new Swiper(".ayush", {
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
